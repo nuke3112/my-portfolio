@@ -1,38 +1,77 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  color: var(--font);
+  position: relative;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home,
+.projects,
+.contact {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding: 18rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  border-radius: 100px;
+  background: var(--button-red);
+  border: none;
+  padding: 1.6rem 4.4rem;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  font-weight: 400;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: var(--time);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.button:hover {
+  background: var(--button-red-dark);
+}
+.title {
+  font-size: 10rem;
+}
+
+.icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+  margin-left: 2.5rem;
+  margin-bottom: 0.5rem;
+  fill: var(--font);
+  transition: var(--time);
+}
+
+a,
+a:visited {
+  color: var(--font);
+  text-decoration: none;
+  transition: var(--time);
+}
+
+a:hover {
+  color: var(--hover);
+  text-decoration: none;
+}
+
+a:hover .icon {
+  fill: var(--hover);
+}
+
+@media (max-width: 43.75em) {
+  .home,
+  .projects,
+  .contact {
+    padding: 7rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 31.25em) {
+  .title {
+    font-size: 7rem;
   }
 }

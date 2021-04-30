@@ -1,0 +1,11 @@
+.background {
+  background: var(--backround-gradient);
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+.stars_container,
+.trees__container {
+  position: inherit;
+}

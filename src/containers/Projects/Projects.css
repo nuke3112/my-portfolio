@@ -1,0 +1,25 @@
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects__text {
+  padding: 3rem 0;
+}
+
+@media (max-width: 75em) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects br {
+    display: none;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .projects__text {
+    margin-top: 15rem;
+  }
+}

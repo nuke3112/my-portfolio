@@ -1,0 +1,62 @@
+.home {
+  justify-content: space-between;
+}
+
+.home__text {
+  font-size: var(--font-small);
+  flex: 1;
+  z-index: 2;
+}
+
+.home__bird-one {
+  position: absolute;
+  right: 30rem;
+  align-self: flex-start;
+  margin-top: 10rem;
+  z-index: 1;
+}
+
+.home__bird-two {
+  position: absolute;
+  left: 60rem;
+  bottom: 30rem;
+  z-index: 1;
+  align-self: flex-end;
+}
+
+.home__bird-two svg {
+  width: 15rem;
+}
+
+@media (max-width: 75em) {
+  .home__bird-one {
+    display: none;
+  }
+  .home__bird-two {
+    left: 15rem;
+    bottom: 60rem;
+  }
+}
+
+@media (max-width: 62.5em) {
+  .home {
+    flex-direction: column-reverse;
+  }
+
+  .home br {
+    display: none;
+  }
+}
+
+@media (max-width: 43.75em) {
+  .home__text {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .home {
+    justify-content: center;
+    padding-top: 20rem !important;
+  }
+}

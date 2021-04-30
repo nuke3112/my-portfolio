@@ -1,0 +1,9 @@
+.stars__container {
+  width: 100%;
+  height: 100%;
+}
+
+.stars__svg {
+  width: 100%;
+  height: 90vh;
+}

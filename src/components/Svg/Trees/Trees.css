@@ -1,0 +1,12 @@
+.trees__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  z-index: 1;
+}
+
+.trees__svg {
+  height: 35rem;
+  width: 100%;
+}
