@@ -1,5 +1,6 @@
 .home {
   justify-content: space-between;
+  align-items: center;
 }
 
 .home__text {
@@ -57,6 +58,7 @@
 @media (max-width: 31.25em) {
   .home {
     justify-content: center;
+    align-items: stretch;
     padding-top: 20rem !important;
   }
 }

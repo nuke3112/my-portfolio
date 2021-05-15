@@ -1,0 +1,20 @@
+.project_card {
+  width: 40rem;
+  margin: 0 1rem 0 1rem;
+  border-radius: 10px;
+  background-size: cover;
+  transition: all var(--time);
+  cursor: pointer;
+  display: flex;
+}
+
+.project_card:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 75em) {
+  .project_card {
+    margin: 1rem 0 1rem 0;
+    height: 20rem;
+  }
+}

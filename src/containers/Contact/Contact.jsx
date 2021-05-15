@@ -16,21 +16,21 @@ const Contact = (props) => {
       <div className="contact__list-wrapper contact__text--social">
         <ul className="contact__list">
           <li className="contact__list-item">
-            <a href="#">
+            <a href="mailto:jeetchauhan.designer@gmail.com">
               <Icon className="contact__email" name="envelop" />
               <span>jeetchauhan.designer@gmail.com</span>
             </a>
           </li>
           <li className="contact__list-item item__2">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/jeetchauhan3112">
               <Icon className="contact__linkedin" name="linkedin" />
               <span>LinkedIn</span>
             </a>
-            <a href="#">
+            <a href="https://www.behance.net/jeetchauhan3112">
               <Icon className="contact__behance" name="behance" />
               <span>Behance</span>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/jeet3112/">
               <Icon className="contact__instagram" name="instagram" />
               <span>Instagram</span>
             </a>

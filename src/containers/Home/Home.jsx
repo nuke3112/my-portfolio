@@ -6,6 +6,7 @@ import Birds from "../../components/Svg/Birds/Birds";
 import Button from "../../components/Button/Button";
 
 import "./Home.css";
+import Resume from "../../assets/JeetChauhan_Resume.pdf";
 
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2];
 const trans1 = (x, y) => `translate(${-x / 15}px,${-y / 15}px)`;
@@ -37,11 +38,17 @@ const Home = () => {
           Chauhan
         </span>
         <p>&nbsp;&nbsp;UI/UX Designer</p>
-        <Button className="button">Download resume</Button>
+        <Button className="button">
+          <a href={Resume} download="JeetChauhan_Resume.pdf">
+            Download resume
+          </a>
+        </Button>
       </div>
       <Birds order="home__bird-one" />
       <Birds order="home__bird-two" />
-      <animated.div style={{ transform: props.xy.to(trans1) }}>
+      <animated.div
+        style={{ transform: props.xy.to(trans1), alignSelf: "flex-start" }}
+      >
         <Moon />
       </animated.div>
     </div>

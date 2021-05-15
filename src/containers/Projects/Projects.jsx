@@ -8,10 +8,7 @@ const Projects = (props) => {
   return (
     <div className="projects">
       <div className="projects__text">
-        <span className="projects__text--title title">
-          My <br />
-          Projects
-        </span>
+        <span className="projects__text--title title">My Projects</span>
       </div>
       <SlideShow />
     </div>
