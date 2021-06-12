@@ -4,8 +4,8 @@ import { Carousel } from "react-responsive-carousel";
 import Button from "../Button/Button";
 
 import "./SlideShow.css";
-import Img_1 from "../../assets/project_1.jpg";
-import Img_2 from "../../assets/project_2.jpg";
+import Img_1 from "../../assets/project_1.png";
+import Img_2 from "../../assets/project_2.png";
 import Img_3 from "../../assets/project_3.jpg";
 import Img_4 from "../../assets/project_4.jpg";
 import Card from "../Card/Card";
@@ -15,18 +15,18 @@ const SlideShow = (props) => {
     <div className="slideshow">
       <Card image={Img_1}>
         <a
-          href="https://www.behance.net/gallery/119497889/Sign-up-login-design"
+          href="https://www.behance.net/gallery/121390839/JioMart-redesign-concept"
           className="slideshow__link project_1"
         >
-          Sign up and Login UI design
+          JioMart Redesign Concept
         </a>
       </Card>
       <Card image={Img_2}>
         <a
-          href="https://www.behance.net/gallery/119500937/Landing-page-design"
+          href="https://www.behance.net/gallery/121195759/Epay-Payment-app-design"
           className="slideshow__link project_2"
         >
-          Landing page design
+          EPay - The payment app
         </a>
       </Card>
       <Card image={Img_3}>
@@ -39,10 +39,10 @@ const SlideShow = (props) => {
       </Card>
       <Card image={Img_4}>
         <a
-          href="https://recipebuddy-7923d.web.app/"
+          href="https://www.behance.net/gallery/119500937/Landing-page-design"
           className="slideshow__link project_4"
         >
-          Recipe Buddy, a search engine for recipes!
+          Landing Page design
         </a>
       </Card>
     </div>
